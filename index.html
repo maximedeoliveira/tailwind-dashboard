@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Tailwind CSS Dashboard</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flex w-full h-full overflow-hidden">
+            <div class="flex flex-col" style="width:250px; background-color: #F0F0F0;">
+                <div class="flex justify-center my-6">
+                    <img src="https://fakeimg.pl/200x75/" alt="">
+                </div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm uppercase mx-6">
+                    Add new
+                    <i class="fas fa-plus ml-2 text-sm"></i>
+                </button>
+                <div class="flex flex-col mx-6">
+                    <div class="mt-4">
+                        <p class="my-1 px-4 text-gray-600 text-sm uppercase font-bold">Title</p>
+                        <div class="flex flex-col">
+                            <a href="#" class="py-2 px-4 my-1 bg-white rounded-md flex items-center text-blue-500">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                            <a href="#" class="py-2 px-4 my-1 flex items-center text-gray-600">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                            <a href="#" class="py-2 px-4 my-1 flex items-center text-gray-600">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <p class="my-1 px-4 text-gray-600 text-sm uppercase font-bold">Title</p>
+                        <div class="flex flex-col">
+                            <a href="#" class="py-2 px-4 my-1 flex items-center text-gray-600">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                            <a href="#" class="py-2 px-4 my-1 flex items-center text-gray-600">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                            <a href="#" class="py-2 px-4 my-1 flex items-center text-gray-600">
+                                <i class="fas fa-home text-xs"></i>
+                                <span class="ml-4">Link</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-full" style="width: calc(100% - 250px)">
+                <!--<div class="p-4">
+                    <i class="fas fa-bars text-md"></i>
+                </div>-->
+                <div class="overflow-auto p-4 w-full h-full">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
